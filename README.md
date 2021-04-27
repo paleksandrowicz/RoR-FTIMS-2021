@@ -1,25 +1,15 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # RoR-FTIMS-2021
+
+rails new nazwa_aplikacji - generuje nam projekt
+
+rails server (rails s) - Odpala serwer
+
+rails console (rails c) - Odpala konsolę
+
+rake db:create - tworzy bazę danych
+
+rake db:drop - usuwa bazę danych
+
+rails g migration NazwaMigracji - generuje migrację
+
+rake db:mirgate - odpala migrację
