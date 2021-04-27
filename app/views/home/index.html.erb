@@ -1,0 +1,13 @@
+Organization List
+
+<ul>
+  <% @organizations.each do |organization| %>
+    <li>
+      <%= organization.display_data %>
+    </li>
+  <% end %>
+</ul>
+
+<script>
+  alert('Test');
+</script>
